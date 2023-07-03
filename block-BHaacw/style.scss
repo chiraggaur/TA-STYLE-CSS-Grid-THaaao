@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: #3a4b4f;
+    font-family: 'Dancing Script', cursive;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+//custom code 
+
+header{
+    font-size: 35px;
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+}
+.container{
+    max-width: 1200px;
+    color: white;
+    padding: 0px 20px;
+    margin: 0 auto;
+    // border: 2px solid black;
+}
+.navigations{
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    background-color: white;
+    color: skyblue;
+    align-items: center;
+    margin-top: 10px;
+    border-top: 2px solid skyblue;
+    border-bottom: 2px solid skyblue;
+}
+.cinemaPhoto{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    padding-left: 30px;
+    width: 300px;
+    height: 200px;
+}
+.graphPhoto{
+    width: 100px;
+    height: 100px;
+    padding-left: 100px;
+}
+.mainContainer{
+    margin-top: 20px;
+    display: grid;
+    height: 60vh;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    // border: 2px solid black;
+    grid-template-columns: repeat(3,380px);
+    grid-template-rows: repeat(3,140px)
+}
+.item-1{
+    color: black;
+    //  grid-row: span 1;
+    background-color: white;
+    // border: 2px solid black;
+}
+.item-2{
+    color: black;
+    // height: 120px;
+    grid-row: span 3;
+    background-color: white;
+    // border: 2px solid black;
+}
+.item-3{
+    color: black;
+    background-color: white;
+    // border: 2px solid black;
+}
+.item-4{
+    color: black;
+    grid-row: span 2 ;
+    height: 250px;
+    background-color: white;
+    // border: 2px solid black;
+}
+.item-5{
+    color: black;
+    // height: 120px;
+    // grid-row: span 1 ;
+    background-color: white;
+    // border: 2px solid black;
+}
+.item-6{
+    color: black;
+    // height: 120px;
+    // grid-row: span 1 ;
+    background-color: white;
+    // border: 2px solid black;
+}
+.title{
+    font-size: 25px;
+    margin-top: 10px;
+    // border: 2px solid black;
+    padding-left: 10px;
+}
+.title_Fifth{
+    font-size: 25px;
+    // margin-top: 10px;
+    background-color: skyblue;
+    // border: 2px solid black;
+    padding-left: 10px;
+}
+.text{
+    font-size: 16px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.learn_More{
+    text-decoration: none;
+    font-size: 20px;
+    // border: 2px solid black;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.learn_More_Third{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: red;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.learn_More_Cinema{
+    text-decoration: none;
+    font-size: 20px;
+    // border: 2px solid black;
+    margin-top: 60px;
+    padding-left: 10px;
+}
